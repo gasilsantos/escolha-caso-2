@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero
+
+		escreva("digite um número")
+		leia(numero)
+
+		escolha (numero){
+			caso 100:
+                  escreva ("bom dia!")
+               pare
+               caso 200:
+                    escreva ("boa tarde !")
+               pare
+               caso 300:
+                   escreva ("boa noite")
+               pare
+               caso contrario:
+               
+                    escreva ("numero invalido ") 
+
+                  			
+		}
+		
+	}
+}
